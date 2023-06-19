@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+.backGround {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    opacity: 2;
+}
+body {
+    background-image: url("sg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
+/*@media (min-aspect-ratio: 16/9) {
+    .backGround {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .backGround {
+        width: auto;
+        height: 100%;
+    }
+}*/
+.divPara {
+    z-index: 1;
+}
+  
+video.p {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.divPara {
+    text-align: left;
+}
+
+.loveText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px ;  
+}
+button {
+    font-size: 20px;
+    height: 40px;
+    width: 60px;
+}
+
